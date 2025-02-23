@@ -9,6 +9,7 @@ lancedb = "*"
 tantivy = "*"
 pypdf = "*"
 duckduckgo-search = "*"
+pyright = "*"
 
 [dev-packages]
 
