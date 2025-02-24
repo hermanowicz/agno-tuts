@@ -4,13 +4,16 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-agno = "*"
 lancedb = "*"
 tantivy = "*"
 pypdf = "*"
 duckduckgo-search = "*"
 pyright = "*"
 yfinance = "*"
+loguru = "*"
+openai = "*"
+exa-py = "*"
+agno = "*"
 
 [dev-packages]
 

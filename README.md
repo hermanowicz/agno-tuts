@@ -14,3 +14,10 @@
 - tantivy
 - pypdf
 - duckduckgo-search
+- yfinance
+
+## Agent
+
+```py
+
+```
