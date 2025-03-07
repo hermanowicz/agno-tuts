@@ -14,6 +14,8 @@ loguru = "*"
 openai = "*"
 exa-py = "*"
 agno = "*"
+ollama = "*"
+groq = "*"
 
 [dev-packages]
 
