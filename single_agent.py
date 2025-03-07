@@ -1,6 +1,5 @@
 from textwrap import dedent
 from agno.agent import Agent, RunResponse
-from agno.models.openai import OpenAIChat
 from agno.models.groq import Groq
 from agno.tools.duckduckgo import DuckDuckGoTools
 
@@ -13,7 +12,8 @@ groq_agent = Agent(
     show_tool_calls=True,
     telemetry=False,
     markdown=True,
-    stream=False)
+    stream=False
+    )
 
 
 run: RunResponse = groq_agent.run(
